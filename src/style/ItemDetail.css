@@ -1,0 +1,51 @@
+.cardDetalle {
+  width: 400px;
+  height: 300px;
+  background: #FF9500;
+  position: relative;
+  display: flex;
+  place-content: center;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 50px;
+  text-align: center;
+  margin:2%;
+}
+
+.cardDetalle h2 {
+  z-index: 1;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.cardDetalle p {
+  z-index: 1;
+  color: #FF9500;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 2%;
+}
+
+.cardDetalle .precio {
+  z-index: 1;
+  color: black;
+  font-size: 1.1rem;
+  text-align: center;
+  padding: 2%;
+}
+
+.cardDetalle h3 {
+  z-index: 1;
+  color: #FF9500;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+
+.cardDetalle::after {
+  content: '';
+  position: absolute;
+  background: #C9FF5A;
+  inset: 5px;
+  border-radius: 15px;
+}

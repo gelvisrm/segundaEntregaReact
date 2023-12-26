@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #04021E;
+
+}
+
+.contenedorItem {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+    margin: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}

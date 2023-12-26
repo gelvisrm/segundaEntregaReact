@@ -1,0 +1,11 @@
+.contador {
+    color: #FF9500;
+    border: #FF9500 solid 1px;
+    font-weight: 700;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(131, 135, 10, 0.4);
+    padding: 4%;
+    border-radius: 50%;
+    width: 2rem;
+}
